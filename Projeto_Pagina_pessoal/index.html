@@ -17,10 +17,14 @@
         <div class="container d-flex justify-content-between align-items-center">
             <h2 class="m-0 h4">Yago Dinato</h2>
             <nav>
-                <button type="button" class="btn btn-outline-primary me-2" onclick="location.href='#sobreMim'"> About </button>
-                <button type="button" class="btn btn-outline-primary me-2" onclick="location.href='#projetos'"> Projects </button>
-                <button type="button" class="btn btn-outline-primary me-2" onclick="location.href='#experiencias'"> Experience </button>
-                <button type="button" class="btn btn-outline-primary me-2" onclick="location.href='#contato'"> Contact </button>
+                <button type="button" class="btn btn-outline-primary me-2" onclick="location.href='#sobreMim'"> Sobre
+                </button>
+                <button type="button" class="btn btn-outline-primary me-2" onclick="location.href='#projetos'"> Projetos
+                </button>
+                <button type="button" class="btn btn-outline-primary me-2" onclick="location.href='#contato'"> Contato
+                </button> 
+                <button type="button" class="btn btn-outline-primary me-2" onclick="location.href='#experiencias'"> Experiencias
+                </button>
             </nav>
         </div>
     </header>
@@ -49,7 +53,7 @@
                     </div>
 
                     <div class="col-md-5 col-lg-4">
-                        <img src="img-yago.png" class="img-fluid rounded-4" alt="imagem-perfil">
+                        <img src="imgs/img-yago.png" class="img-fluid rounded-4" alt="imagem-perfil">
                     </div>
 
                     <div class="col-md-5 d-flex gap-3 justify-content-start align-items-center">
@@ -61,13 +65,17 @@
                         </div>
 
                         <div>
-                            <button type="button" class="btn btn-outline-dark"><i class="bi bi-github"></i>
-                                GitHub
+                            <button type="button" class="btn btn-outline-dark"
+                                onclick="window.open('https://github.com/YagoDinato', '_blank')">
+                                <i class="bi bi-github"></i> GitHub
                             </button>
                         </div>
+
                         <div>
-                            <button type="button" class="btn btn-outline-dark"> <i class="bi bi-linkedin"></i>
-                                LinkendIn
+                            <button type="button" class="btn btn-outline-dark"
+                                onclick="window.open('https://www.linkedin.com/in/yago-dinato', '_blank')">
+                                <i class="bi bi-linkedin"></i>
+                                LinkedIn
                             </button>
                         </div>
                     </div>
@@ -86,7 +94,7 @@
                     <div class="row align-items-center">
 
                         <div class="col-md-6 mb-3 mb-md-0">
-                            <img src="img-yago.png" class="img-fluid rounded-4" alt="imagem-perfil">
+                            <img src="imgs/img-yago.png" class="img-fluid rounded-4" alt="imagem-perfil">
                         </div>
 
                         <div class="col-md-6">
@@ -114,16 +122,187 @@
                         </div>
 
                     </div>
-
-
-
-
                 </div>
             </div>
+        </section>
+
+        <!--Parte PROJETOS-->
+        <section id="projetos" class="py-5">
+            <div class="container">
+                <!-- Card principal/Container da seção -->
+                <div class="p-4 p-md-5 shadow-lg rounded-4 bg-white">
+                    <h2 class="mb-4">Projetos</h2>
+
+                    <div class="row g-4">
+
+                        <!-- Projeto 1 -->
+                        <div class="col-md-6">
+                            <div class="card shadow-sm border-0 rounded-4 overflow-hidden bg-light">
+
+                                <!-- Área da Imagem com Badge e Efeito Gradiente -->
+                                <div class="position-relative">
+                                    <img src="imgs/extensao.png" class="card-img-top"
+                                        alt="Imagem do Projeto Integrador SENAI"
+                                        style="height: 240px; object-fit: cover;">
+
+                                    <!-- Degradê suave na parte inferior da imagem -->
+                                    <div class="position-absolute bottom-0 start-0 w-100"
+                                        style="height: 50%; background: linear-gradient(to bottom, transparent, #f8f9fa);">
+                                    </div>
+
+                                </div>
+
+                                <!-- Conteúdo do Card -->
+                                <div class="card-body p-4 pt-2 d-flex flex-column justify-content-between">
+                                    <div>
+                                        <h3 class="card-title fw-bold text-dark mb-3 fs-3">Projeto Extensão SENAI</h3>
+                                        <p class="card-text text-secondary mb-4" style="line-height: 1.6;">
+                                           O DOMÍNIO 123 é uma aplicação web educacional e interativa desenvolvida com tecnologias web fundamentais (HTML5, CSS3 e JavaScript). O projeto foi concebido para unir o ensino de objetivos de aprendizagem, progressão por níveis e fixação de conteúdo por meio de quizzes gamificados e dinâmicos.
+                                        </p>
+                                    </div>
+
+                                    <!-- Botão Estilo Pill -->
+                                    <div>
+                                        <a href="https://github.com/Claudio1008/DOM-NIO-123---Desenvolvimento-de-Objetivos--N-veis--Educa--o-e-Quiz" target="_blank"
+                                            class="btn btn-primary rounded-pill px-4 py-2 fw-bold text-uppercase fs-6">
+                                            Ver Projeto
+                                        </a>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <!-- Projeto 2 -->
+                        <div class="col-md-6">
+                            <div class="card shadow-sm border-0 rounded-4 overflow-hidden bg-light">
+
+                                <!-- Área da Imagem com Badge e Efeito Gradiente -->
+                                <div class="position-relative">
+                                    <img src="imgs/S-RAF.jpg" class="card-img-top"
+                                        alt="Imagem do Projeto Integrador SENAI"
+                                        style="height: 240px; object-fit: cover;">
+
+                                    <!-- Degradê suave na parte inferior da imagem -->
+                                    <div class="position-absolute bottom-0 start-0 w-100"
+                                        style="height: 50%; background: linear-gradient(to bottom, transparent, #f8f9fa);">
+                                    </div>
+
+                                </div>
+
+                                <!-- Conteúdo do Card -->
+                                <div class="card-body p-4 pt-2 d-flex flex-column justify-content-between">
+                                    <div>
+                                        <h3 class="card-title fw-bold text-dark mb-3 fs-3">Projeto Integrador SENAI</h3>
+                                        <p class="card-text text-secondary mb-4" style="line-height: 1.6;">
+                                           O S-RAF é uma aplicação full-stack desenvolvida como Projeto Integrador do SENAI. Seu principal objetivo é modernizar e automatizar a rotina de gestão acadêmica, gerenciando de forma eficiente o fluxo de solicitação de ausências e a substituição de docentes.
+                                        </p>
+                                    </div>
+
+                                    <!-- Botão Estilo Pill -->
+                                    <div>
+                                        <a href="https://github.com/project-integrador" target="_blank"
+                                            class="btn btn-primary rounded-pill px-4 py-2 fw-bold text-uppercase fs-6">
+                                            Ver Projeto
+                                        </a>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <!--Projeto 3-->
+                        <div class="col-md-6">
+                            <div class="card shadow-sm border-0 rounded-4 overflow-hidden bg-light">
+
+                                <!-- Área da Imagem com Badge e Efeito Gradiente -->
+                                <div class="position-relative">
+                                    <img src="imgs/projeto-3.png" class="card-img-top"
+                                        alt="Imagem do Projeto Integrador SENAI"
+                                        style="height: 240px; object-fit: cover;">
+
+                                    <!-- Degradê suave na parte inferior da imagem -->
+                                    <div class="position-absolute bottom-0 start-0 w-100"
+                                        style="height: 50%; background: linear-gradient(to bottom, transparent, #f8f9fa);">
+                                    </div>
+
+                                </div>
+
+                                <!-- Conteúdo do Card -->
+                                <div class="card-body p-4 pt-2 d-flex flex-column justify-content-between">
+                                    <div>
+                                        <h3 class="card-title fw-bold text-dark mb-3 fs-3">Projeto Integrador 2 SENAI</h3>
+                                        <p class="card-text text-secondary mb-4" style="line-height: 1.6;">
+                                           O SmartPLC ...
+                                        </p>
+                                    </div>
+
+                                    <!-- Botão Estilo Pill -->
+                                    <div>
+                                        <a href="" target="_blank"
+                                            class="btn btn-primary rounded-pill px-4 py-2 fw-bold text-uppercase fs-6">
+                                            LINK FUTURO
+                                        </a>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
 
 
+                        <!--Projeto 4-->
+                        <div class="col-md-6">
+                            <div class="card shadow-sm border-0 rounded-4 overflow-hidden bg-light">
+
+                                <!-- Área da Imagem com Badge e Efeito Gradiente -->
+                                <div class="position-relative">
+                                    <img src="imgs/projeto-3.png" class="card-img-top"
+                                        alt="Imagem do Projeto Integrador SENAI"
+                                        style="height: 240px; object-fit: cover;">
+
+                                    <!-- Degradê suave na parte inferior da imagem -->
+                                    <div class="position-absolute bottom-0 start-0 w-100"
+                                        style="height: 50%; background: linear-gradient(to bottom, transparent, #f8f9fa);">
+                                    </div>
+
+                                </div>
+
+                                <!-- Conteúdo do Card -->
+                                <div class="card-body p-4 pt-2 d-flex flex-column justify-content-between">
+                                    <div>
+                                        <h3 class="card-title fw-bold text-dark mb-3 fs-3">Projeto Extensão 2 SENAI</h3>
+                                        <p class="card-text text-secondary mb-4" style="line-height: 1.6;">
+                                           Casa de cuidado de idosos... 
+                                        </p>
+                                    </div>
+
+                                    <!-- Botão Estilo Pill -->
+                                    <div>
+                                        <a href="" target="_blank"
+                                            class="btn btn-primary rounded-pill px-4 py-2 fw-bold text-uppercase fs-6">
+                                            LINK FUTURO
+                                        </a>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            </div>
         </section>
     </main>
+    <footer>
+        <section>
+            <!--Skills usando badge -->
+        </section>
+
+        <section>
+            <!--Parte de contato-->
+        </section>
+    </footer>
 </body>
 
 </html>
