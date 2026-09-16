@@ -8,7 +8,6 @@
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
-    <script src="index.js" defer></script>
 
 </head>
 
@@ -17,13 +16,14 @@
         <div class="container d-flex justify-content-between align-items-center">
             <h2 class="m-0 h4">Yago Dinato</h2>
             <nav>
-                <button type="button" class="btn btn-outline-primary me-2" onclick="location.href='#sobreMim'"> Sobre
+                <button type="button" class="btn btn-outline-dark me-2" onclick="location.href='#sobreMim'"> Sobre
                 </button>
-                <button type="button" class="btn btn-outline-primary me-2" onclick="location.href='#projetos'"> Projetos
+                <button type="button" class="btn btn-outline-dark me-2" onclick="location.href='#projetos'"> Projetos
                 </button>
-                <button type="button" class="btn btn-outline-primary me-2" onclick="location.href='#contato'"> Contato
-                </button> 
-                <button type="button" class="btn btn-outline-primary me-2" onclick="location.href='#experiencias'"> Experiencias
+                <button type="button" class="btn btn-outline-dark me-2" onclick="location.href='#contato'"> Contato
+                </button>
+                <button type="button" class="btn btn-outline-dark me-2" onclick="location.href='#experiencias'">
+                    Experiencias
                 </button>
             </nav>
         </div>
@@ -157,13 +157,17 @@
                                     <div>
                                         <h3 class="card-title fw-bold text-dark mb-3 fs-3">Projeto Extensão SENAI</h3>
                                         <p class="card-text text-secondary mb-4" style="line-height: 1.6;">
-                                           O DOMÍNIO 123 é uma aplicação web educacional e interativa desenvolvida com tecnologias web fundamentais (HTML5, CSS3 e JavaScript). O projeto foi concebido para unir o ensino de objetivos de aprendizagem, progressão por níveis e fixação de conteúdo por meio de quizzes gamificados e dinâmicos.
+                                            O DOMÍNIO 123 é uma aplicação web educacional e interativa desenvolvida com
+                                            tecnologias web fundamentais (HTML5, CSS3 e JavaScript). O projeto foi
+                                            concebido para unir o ensino de objetivos de aprendizagem, progressão por
+                                            níveis e fixação de conteúdo por meio de quizzes gamificados e dinâmicos.
                                         </p>
                                     </div>
 
                                     <!-- Botão Estilo Pill -->
                                     <div>
-                                        <a href="https://github.com/Claudio1008/DOM-NIO-123---Desenvolvimento-de-Objetivos--N-veis--Educa--o-e-Quiz" target="_blank"
+                                        <a href="https://github.com/Claudio1008/DOM-NIO-123---Desenvolvimento-de-Objetivos--N-veis--Educa--o-e-Quiz"
+                                            target="_blank"
                                             class="btn btn-primary rounded-pill px-4 py-2 fw-bold text-uppercase fs-6">
                                             Ver Projeto
                                         </a>
@@ -195,7 +199,10 @@
                                     <div>
                                         <h3 class="card-title fw-bold text-dark mb-3 fs-3">Projeto Integrador SENAI</h3>
                                         <p class="card-text text-secondary mb-4" style="line-height: 1.6;">
-                                           O S-RAF é uma aplicação full-stack desenvolvida como Projeto Integrador do SENAI. Seu principal objetivo é modernizar e automatizar a rotina de gestão acadêmica, gerenciando de forma eficiente o fluxo de solicitação de ausências e a substituição de docentes.
+                                            O S-RAF é uma aplicação full-stack desenvolvida como Projeto Integrador do
+                                            SENAI. Seu principal objetivo é modernizar e automatizar a rotina de gestão
+                                            acadêmica, gerenciando de forma eficiente o fluxo de solicitação de
+                                            ausências e a substituição de docentes.
                                         </p>
                                     </div>
 
@@ -231,9 +238,10 @@
                                 <!-- Conteúdo do Card -->
                                 <div class="card-body p-4 pt-2 d-flex flex-column justify-content-between">
                                     <div>
-                                        <h3 class="card-title fw-bold text-dark mb-3 fs-3">Projeto Integrador 2 SENAI</h3>
+                                        <h3 class="card-title fw-bold text-dark mb-3 fs-3">Projeto Integrador 2 SENAI
+                                        </h3>
                                         <p class="card-text text-secondary mb-4" style="line-height: 1.6;">
-                                           O SmartPLC ...
+                                            O SmartPLC ...
                                         </p>
                                     </div>
 
@@ -272,7 +280,7 @@
                                     <div>
                                         <h3 class="card-title fw-bold text-dark mb-3 fs-3">Projeto Extensão 2 SENAI</h3>
                                         <p class="card-text text-secondary mb-4" style="line-height: 1.6;">
-                                           Casa de cuidado de idosos... 
+                                            Casa de cuidado de idosos...
                                         </p>
                                     </div>
 
@@ -284,25 +292,128 @@
                                         </a>
                                     </div>
                                 </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
 
+        <!-- Parte EXPERIÊNCIAS -->
+        <section id="experiencias" class="py-5">
+            <div class="container">
+                <!-- Container branco principal (igual à seção de Projetos) -->
+                <div class="p-4 p-md-5 shadow-lg rounded-4 bg-white">
+                    <h2 class="mb-4">Experiências</h2>
+
+                    <!-- Linha Vertical da Timeline -->
+                    <div class="border-start border-secondary-subtle ps-4 ms-2">
+
+                        <!-- Item 1 (Raízen) -->
+                        <div class="position-relative mb-4">
+                            <!-- Bolinha Verde -->
+                            <span
+                                class="position-absolute start-0 top-0 translate-middle-x bg-success rounded-circle p-1 mt-3"
+                                style="z-index: 2;"></span>
+
+                            <!-- Card Expansível -->
+                            <div class="card border border-secondary-subtle rounded-4 shadow-sm overflow-hidden">
+
+                                <!-- Cabeçalho do Card (Com gatilhos para clicar e abrir) -->
+                                <div class="card-header bg-light border-0 p-3 p-md-4" role="button"
+                                    data-bs-toggle="collapse" data-bs-target="#exp1" aria-expanded="false">
+                                    <div class="d-flex justify-content-between align-items-center flex-wrap gap-2">
+                                        <div>
+                                            <h5 class="fw-bold mb-1 text-dark">Aprendiz Técnico em Instrumentação
+                                                Industrial 1</h5>
+                                            <div class="text-primary small">RAIZEN CENTRO-SUL PAULISTA S.A</div>
+                                        </div>
+                                        <div class="d-flex align-items-center gap-3 ms-auto ms-md-0">
+                                            <span
+                                                class="badge bg-white text-secondary border font-monospace fw-normal">Junho
+                                                2025 – Agosto 2025</span>
+                                            <i class="bi bi-chevron-down text-secondary"></i>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Conteúdo Expansível -->
+                                <div id="exp1" class="collapse">
+                                    <div
+                                        class="card-body pt-0 px-3 px-md-4 pb-4 text-secondary border-top border-secondary-subtle mt-2 pt-3">
+                                        Durante a realização do curso Técnico em Instrumentação, fui contratado por uma
+                                        empresa do setor bioenergético. Nessa experiência, realizei diversas atividades
+                                        de manutenção de equipamentos e controle de malhas, além de atuar com
+                                        programação e automação em Ladder no TIA Portal e com plantas didáticas no SENAI
+                                        Sertãozinho.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Item 2 (Barra Mansa - Antigo) -->
+                        <div class="position-relative mb-4">
+                            <!-- Bolinha Verde -->
+                            <span
+                                class="position-absolute start-0 top-0 translate-middle-x bg-success rounded-circle p-1 mt-3"
+                                style="z-index: 2;"></span>
+
+                            <!-- Card Expansível -->
+                            <div class="card border border-secondary-subtle rounded-4 shadow-sm overflow-hidden">
+
+                                <!-- Cabeçalho do Card (Com gatilhos para clicar e abrir) -->
+                                <div class="card-header bg-light border-0 p-3 p-md-4" role="button"
+                                    data-bs-toggle="collapse" data-bs-target="#exp2" aria-expanded="false">
+                                    <div class="d-flex justify-content-between align-items-center flex-wrap gap-2">
+                                        <div>
+                                            <h5 class="fw-bold mb-1 text-dark">Aprendiz</h5>
+                                            <div class="text-primary small">BARRA MANSA COMÉRCIO DE CARNES E DERIVADOS
+                                            </div>
+                                        </div>
+                                        <div class="d-flex align-items-center gap-3 ms-auto ms-md-0">
+                                            <span
+                                                class="badge bg-white text-secondary border font-monospace fw-normal">Abril
+                                                2023 – Dezembro 2023</span>
+                                            <i class="bi bi-chevron-down text-secondary"></i>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Conteúdo Expansível -->
+                                <div id="exp2" class="collapse">
+                                    <div
+                                        class="card-body pt-0 px-3 px-md-4 pb-4 text-secondary border-top border-secondary-subtle mt-2 pt-3">
+                                        Durante o curso de Aprendizagem Industrial em Almoxarife, fui contratado por uma
+                                        empresa do setor alimentício. Nessa experiência, atuei com controle de estoque,
+                                        recebimento e armazenamento de produtos, além de auxiliar na organização e
+                                        manutenção do almoxarifado no SENAI Sertãozinho.
+                                    </div>
+                                </div>
                             </div>
                         </div>
 
                     </div>
                 </div>
             </div>
-            </div>
         </section>
-    </main>
-    <footer>
+         
+        <!--Parte de Skills usando badges-->
         <section>
-            <!--Skills usando badge -->
         </section>
 
+
+    </main>
+    <footer>
         <section>
             <!--Parte de contato-->
         </section>
     </footer>
+
+    <section>
+        <script src="index.js" defer></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    </section>
 </body>
 
 </html>
